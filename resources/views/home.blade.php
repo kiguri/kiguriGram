@@ -7,15 +7,15 @@
             <img src="/images/Seraphine.jpg" alt="" class="img-fluid rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>kiguriGram</h1></div>
+            <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pr-5"><strong>153</strong> posts</div>
                 <div class="pr-5"><strong>23k</strong> followers</div>
                 <div class="pr-5"><strong>212</strong> following</div>
             </div>
-            <div class="pt-4 font-weight-bold">Hà Quang Huy</div>
-            <div>Tôi là Hà Quang Huy. Tôi năm nay 23 tuổi. Tôi đến từ Bắc Ninh</div>
-            <div><a href="https://www.facebook.com/profile.php?id=100023455562249">Facebook</a></div>
+            <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
+            <div>{{ $user->profile->description }}</div>
+            <div><a href="{{ $user->profile->url ?? '#' }}">{{ $user->profile->url ?? 'N/A' }}</a></div>
         </div>
     </div>
 

@@ -14,6 +14,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -133,7 +136,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -151,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599380175378</updated>
       <workItem from="1599380176878" duration="7914000" />
-      <workItem from="1599443501785" duration="4837000" />
+      <workItem from="1599443501785" duration="11322000" />
     </task>
     <servers />
   </component>
@@ -171,10 +174,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599446410604" />
-    <state x="335" y="159" key="SettingsEditor" timestamp="1599446494146">
+    <state width="196" height="539" key="HiddenNamespacesPopup" timestamp="1599450174459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="335" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599446494146" />
+    <state width="196" height="539" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1599450174459" />
+    <state x="335" y="159" key="SettingsEditor" timestamp="1599450118298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="335" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599450118298" />
     <state x="1103" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1599446447823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
