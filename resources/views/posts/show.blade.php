@@ -9,9 +9,29 @@
 
         <div class="col-4">
             <div>
-                <h3>{{ $post->user->username }}</h3>
+                <div class="d-flex align-items-center">
+                    <div class="pr-3">
+                        <img style="max-width: 40px" class="img-fluid rounded-circle" src="{{ $post->user->profile->profileImage() }}" alt="">
+                    </div>
+                    <div>
+                        <div class="font-weight-bold">
+                            <a href="/profile/{{ $post->user->id }}">
+                                <span class="text-dark">{{ $post->user->username }}</span>
+                            </a>
 
-                <p>{{ $post->caption }}</p>
+                            <a href="#" class="pl-3">Follow</a>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <p><span class="font-weight-bold">
+                        <a href="/profile/{{ $post->user->id }}">
+                            <span class="text-dark">{{ $post->user->username }}</span>
+                        </a>
+                    </span> {{ $post->caption }}
+                </p>
             </div>
         </div>
     </div>
